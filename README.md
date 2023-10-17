@@ -22,3 +22,29 @@ This method and dataset are geared to meet evaluation demands and can also be us
 ### Results
 
 ### Dataset
+
+```
+Multi-Modal Articulated Objects Dataset (MMA)
+├── 100221_box
+│    ├── Start_state
+│    │    ├── RGB_Images: 640x480x3 (PNG)
+│    │    ├── Object_Masks: 640x480x3 (PNG)
+│    │    ├── Depth_Maps: [480, 640] (NPY)
+│    │    └── Camera_Poses
+│    │         ├── Pose: 4x4 (LDB)
+│    │         ├── Intrinsic: 3x3
+│    │         ├── FOV
+│    │         └── joint_name
+│    └── End_state
+│         ├── ...
+└── Additional_Info (or another appropriate directory name)
+    ├── Start_state: State of the object before interaction.
+    ├── End_state: State of the object after interaction.
+    ├── RGB_Images: RGB images taken around the object in a specific state.
+    ├── Object_Masks, Depth_Maps, Camera_Poses: Corresponding object masks, depth maps, and camera poses.
+    ├── Pose: Camera pose matrix (LDB coordinate system).
+    ├── Intrinsic: Camera intrinsic matrix.
+    ├── FOV: Camera field of view.
+    └── joint_name: Joint index.
+```
+
