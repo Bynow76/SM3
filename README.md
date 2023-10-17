@@ -17,3 +17,7 @@ We've developed a state-of-the-art approach, SM3, aimed at handling articulated 
 - **Dataset**: Recognizing the lack of datasets for articulated objects, we've introduced a comprehensive dataset named MMA, inspired by the PartNet mobility dataset. This dataset is multi-view, multi-modal, and multi-state, covering a wide range of articulated objects and categories.
 
 This method and dataset are geared to meet evaluation demands and can also be used for training and testing various other techniques in this niche.
+
+### Results
+
+### Dataset
