@@ -18,6 +18,7 @@ We've developed a state-of-the-art approach, SM3, aimed at handling articulated 
 
 This method and dataset are geared to meet evaluation demands and can also be used for training and testing various other techniques in this niche.
 
+
 ### Results
 
 ### Dataset
