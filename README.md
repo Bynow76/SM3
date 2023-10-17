@@ -4,6 +4,8 @@ SM^3: Self-Supervised Multi-task Modeling with Multi-view 2D Images for Articula
 
 ### Introduction
 
+![Overview](./images/SM3_overview.pdf)
+
 We've developed a state-of-the-art approach, SM3, aimed at handling articulated objects using multi-view RGB images both pre- and post-interaction. Here's a quick breakdown:
 
 - **3D Reconstruction**: Our method uses a deformable tetrahedral grid for textured 3D reconstruction. This is achieved by computing post-rendering image losses for objects before and after their interaction.
